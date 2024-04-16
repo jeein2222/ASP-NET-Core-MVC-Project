@@ -18,6 +18,7 @@ namespace NETCoreMVCProject.Models
         [ForeignKey("Address")]
         public int? AddressId { get; set; }
 
+        //참조만 정의할 경우, db에서 생성되는 외래 키 컬럼 이름을 직접 제어할 수 없다.
         public Address? Address { get; set; }
 
         public ClubCategory ClubCategory { get; set; }

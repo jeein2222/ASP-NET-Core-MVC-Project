@@ -13,7 +13,5 @@ namespace NETCoreMVCProject.Models
 
         public string State { get; set; }
 
-        public int ZipCode { get; set; }
-
     }
 }
